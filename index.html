@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Here is the css file I made it commented if required -->
+  <!-- <link rel="stylesheet" href="style.css"> --> 
+ 
+  <title>Styled Calculator</title>
+</head>
+<body>
+
+<div id="calculator">
+  <div id="inputFields">
+    <!-- Input field for first value -->
+    <input type="number" id="value1" placeholder="Enter value 1">
+    <!-- Dropdown for selecting the operator -->
+    <select id="operator">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+    </select>
+    <!-- Input field for second value -->
+    <input type="number" id="value2" placeholder="Enter value 2">
+  </div>
+  <!-- Button to calculate the result -->
+  <button onclick="calculate()">Calculate</button>
+  <!-- Display the result -->
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
